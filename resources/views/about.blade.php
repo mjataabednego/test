@@ -9,7 +9,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <h1>About Us</h1>
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="{{ route('hom')}}"><i class="fas fa-home"></i> Home</a></li>
                         <li class="active">About</li>
                     </ul>
                 </div>
@@ -36,7 +36,7 @@
                         <p>
                             Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on.
                         </p>
-                        <a class="btn circle btn-theme border btn-md" href="#">More About</a>
+                        <a class="btn circle btn-theme border btn-md" href="{{route('more')}}">More About</a>
                     </div>
                     <ul class="achivement">
                         <li>
@@ -104,7 +104,11 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p>
-                                                Continue building numerous of at relation in margaret. Lasted engage roused mother an am at. Other early while if by do to. Missed living excuse as be. Cause heard fat above first time achivement. Discourse unwilling am no described dejection incommode. 
+                                                Continue building numerous of at relation in margaret. 
+                                                Lasted engage roused mother an am at. Other early while
+                                                 if by do to. Missed living excuse as be. Cause heard fat 
+                                                 above first time achivement. Discourse unwilling am no
+                                                  described dejection incommode. 
                                             </p>
                                         </div>
                                     </div>
@@ -118,7 +122,10 @@
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p>
-                                                Continue building numerous of at relation in margaret. Lasted engage roused mother an am at. Other early while if by do to. Missed living excuse as be. Cause heard fat above first time achivement. Discourse unwilling am no described dejection incommode.
+                                                Continue building numerous of at relation in margaret. Lasted engage roused mother 
+                                                an am at. Other early while if by do to. Missed living excuse as be. Cause heard
+                                                 fat above first time achivement. Discourse unwilling am no described dejection
+                                                  incommode.
                                             </p>
                                         </div>
                                     </div>
@@ -132,7 +139,11 @@
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p>
-                                                Continue building numerous of at relation in margaret. Lasted engage roused mother an am at. Other early while if by do to. Missed living excuse as be. Cause heard fat above first time achivement. Discourse unwilling am no described dejection incommode.
+                                                Continue building numerous of at relation in margaret.
+                                                 Lasted engage roused mother an am at. Other early while 
+                                                 if by do to. Missed living excuse as be. Cause heard fat
+                                                  above first time achivement. Discourse unwilling am no 
+                                                  described dejection incommode.
                                             </p>
                                         </div>
                                     </div>
@@ -335,7 +346,7 @@
                                 </div>
                                 <div class="info">
                                     <h4>
-                                        <a href="#">warehouses</a>
+                                        <a href="{{ route('warehouse')}}">warehouses</a>
                                     </h4>
                                 </div>
                             </div>
@@ -351,7 +362,7 @@
                                 </div>
                                 <div class="info">
                                     <h4>
-                                        <a href="#">harvesting machines</a>
+                                        <a href="{{ route('machine')}}">harvesting machines</a>
                                     </h4>
                                 </div>
                             </div>
@@ -367,7 +378,7 @@
                                 </div>
                                 <div class="info">
                                     <h4>
-                                        <a href="#">Harvest Innovation</a>
+                                        <a href="about">Harvest Innovation</a>
                                     </h4>
                                 </div>
                             </div>

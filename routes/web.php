@@ -15,7 +15,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('hom');
 });
 Route::get('hom', [HomeController::class, 'hom'])->name('hom');
 Route::get('about', [HomeController::class, 'about'])->name('about');
@@ -30,3 +30,7 @@ Route::get('contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('team', [HomeController::class, 'team'])->name('team');
 Route::get('sms', [HomeController::class, 'sms'])->name('sms');
 Route::get('gallery', [HomeController::class, 'gallery'])->name('gallery');
+Route::get('more', [HomeController::class, 'more'])->name('more');
+Route::get('ordermachine', [HomeController::class, 'ordermachine'])->name('ordermachine');
+Route::get('rent', [HomeController::class, 'rent'])->name('rent');
+Route::get('pay', [HomeController::class, 'pay'])->name('pay');

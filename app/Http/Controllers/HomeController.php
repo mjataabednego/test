@@ -73,6 +73,27 @@ class HomeController extends Controller
         return view('gallery');
  
     }
+    public function more():view 
+    {
+        return view('more');
+ 
+    }
+    public function ordermachine():view 
+    {
+        return view('ordermachine');
+ 
+    }
+    public function rent():view 
+    {
+        return view('rent');
+ 
+    }
+    public function pay():view 
+    {
+        return view('pay');
+ 
+    }
+
 
 }
 

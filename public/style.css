@@ -799,6 +799,9 @@ input {
 .btn-gradient.green {
   color: #ffffff !important;
 }
+.btn-gradient.green {
+  color: #ffffff !important;
+}
 
 .btn-gradient.green::after {
   position: absolute;

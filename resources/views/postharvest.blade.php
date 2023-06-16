@@ -35,7 +35,7 @@
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary center border btn-md text-center" href="DirectMarket.html">Order service</a>
+                                        <a class="btn circle btn-primary center border btn-md text-center" href="{{ route('market')}} ">Order service</a>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md text-center" href="blog-single-with-sidebar.html">Order service</a>
+                                        <a class="btn circle btn-primary border btn-md text-center" href="{{ route('more')}} ">Order service</a>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md text-center" id="one" href="industries.html">Order service</a>
+                                        <a class="btn circle btn-primary border btn-md text-center" id="one" href="{{ route('industry')}} ">Order service</a>
                                     </div>
                                 </div>
                             </div>

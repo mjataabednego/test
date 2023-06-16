@@ -27,7 +27,10 @@
     <link href="assets/css/animate.css" rel="stylesheet" />
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet">
+    <link href="assets/css/pay.css" rel="stylesheet">
+    <link href="assets/css/other.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

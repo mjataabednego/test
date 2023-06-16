@@ -9,7 +9,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <h1>Our Services</h1>
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="{{ route('hom')}} "><i class="fas fa-home"></i> Home</a></li>
                         <li class="active">Services</li>
                     </ul>
                 </div>
@@ -34,7 +34,7 @@
                             <p>
                                 Revolutionize your harvesting process with our modern tools.
                                 request online for effortless convenience and streamlined efficiency. </p>
-                            <a href="machine.html"><i class="fas fa-angle-right"></i></a>
+                            <a href="{{ route('machine')}} "><i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <!-- End Single Item -->
@@ -48,7 +48,7 @@
                             <p>
                                 Upgrade your warehousing experience with our flexible rental options. 
                                 Gain efficiency through our hassle-free online booking system. </p>
-                            <a href="warehouse.html"><i class="fas fa-angle-right"></i></a>
+                            <a href="{{ route('warehouse')}} "><i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <!-- End Single Item -->
@@ -79,7 +79,7 @@
                                 "Elevate your postharvest processes with our comprehensive services.
                                  streamline your operations through our convenient booking platform.
                                  </p>
-                                  <a href="postharvest.html"><i class="fas fa-angle-right"></i></a>
+                                  <a href="{{ route('postharvest')}} "><i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <!-- End Single Item -->
@@ -107,7 +107,11 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <p>
-                                            Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode no listening of. Before nature his parish boy. guest man now heard but 
+                                            Lasted my coming uneasy marked so should. Gravity letters it 
+                                            amongst herself dearest an windows by. Wooded ladies she basket 
+                                            season age her uneasy saw. Discourse unwilling am no described 
+                                            dejection incommode no listening of. Before nature his parish boy.
+                                             guest man now heard but 
                                         </p>
                                         <h4>Junl Sarukh</h4>
                                         <span>Customer</span>

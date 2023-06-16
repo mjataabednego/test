@@ -42,7 +42,7 @@
                                             </ul>
                                         </div>
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">Discovery incommode commanded be perfect</a>
+                                            <a href="{{ route('ordermachine')}}">Discovery incommode commanded be perfect</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
@@ -66,12 +66,12 @@
                                             </ul>
                                         </div>
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">Before nature his parish boy at the perfect point.</a>
+                                            <a href="{{ route('ordermachine')}}">Before nature his parish boy at the perfect point.</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="blog-single-with-sidebar.html">request</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('ordermachine')}} ">request</a>
                                     </div>
                                 </div>
                             </div>
@@ -90,12 +90,12 @@
                                             </ul>
                                         </div>
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">Up as meant widow equal an share</a>
+                                            <a href="{{ route('ordermachine')}}">Up as meant widow equal an share</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="blog-single-with-sidebar.html">Request</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('ordermachine')}}">Request</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,12 +114,12 @@
                                             </ul>
                                         </div>
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">Always get adieus nature day course for common.</a>
+                                            <a href="{{ route('ordermachine')}}">Always get adieus nature day course for common.</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="blog-single-with-sidebar.html">Request</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('ordermachine')}}">Request</a>
                                     </div>
                                 </div>
                             </div>
@@ -138,12 +138,12 @@
                                             </ul>
                                         </div>
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">Discovery incommode earnestly commanded </a>
+                                            <a href="{{ route('ordermachine')}}">Discovery incommode earnestly commanded </a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="blog-single-with-sidebar.html">Request</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('ordermachine')}}">Request</a>
                                     </div>
                                 </div>
                             </div>
@@ -162,12 +162,12 @@
                                             </ul>
                                         </div>
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">Bejection incommode no listening Before natuboy.</a>
+                                            <a href="{{ route('ordermachine')}}">Bejection incommode no listening Before natuboy.</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="blog-single-with-sidebar.html">Request</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('ordermachine')}}">Request</a>
                                     </div>
                                 </div>
                             </div>

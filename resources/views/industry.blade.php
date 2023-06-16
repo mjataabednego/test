@@ -40,12 +40,12 @@
                                     </div>
                                     <div class="info">
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html"> BONITE BOTTLERS</a>
+                                            <a href="{{ route('sms')}}"> BONITE BOTTLERS</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="industrialsms.html">Sell Here</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('sms')}} ">Sell Here</a>
                                     </div>
                                 </div>
                             </div>
@@ -58,12 +58,12 @@
                                     </div>
                                     <div class="info">
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">JAMBO FOOD PRODUCT</a>
+                                            <a href="{{ route('sms')}}">JAMBO FOOD PRODUCT</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="industrialsms.html">Sell Here</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('sms')}} ">Sell Here</a>
                                     </div>
                                 </div>
                             </div>
@@ -76,12 +76,12 @@
                                     </div>
                                     <div class="info">
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">SUPPER MEALS LTD </a>
+                                            <a href="{{ route('sms')}}">SUPPER MEALS LTD </a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="industrialsms.html">Sell Here</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('sms')}} ">Sell Here</a>
                                     </div>
                                 </div>
                             </div>
@@ -94,12 +94,12 @@
                                     </div>
                                     <div class="info">
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">BAKHRESA&COMPANY</a>
+                                            <a href="{{ route('sms')}}">BAKHRESA&COMPANY</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="industrialsms.html">Sell Here</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('sms')}}">Sell Here</a>
                                     </div>
                                 </div>
                             </div>
@@ -112,12 +112,12 @@
                                     </div>
                                     <div class="info">
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">NOBE DISTILLERS LTD</a>
+                                            <a href="{{ route('sms')}}>NOBE DISTILLERS LTD</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="industrialsms.html">Sell Here</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('sms')}} ">Sell Here</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,12 +130,12 @@
                                     </div>
                                     <div class="info">
                                         <h4>
-                                            <a href="blog-single-with-sidebar.html">KINGCHIPS & SNACKS</a>
+                                            <a href="{{ route('sms')}}>KINGCHIPS & SNACKS</a>
                                         </h4>
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="industrialsms.html">Sell Here</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('sms')}} ">Sell Here</a>
                                     </div>
                                 </div>
                             </div>
