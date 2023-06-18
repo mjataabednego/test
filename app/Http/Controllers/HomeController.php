@@ -4,14 +4,26 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use illuminate\View\View;
-
-
 class HomeController extends Controller
 {
-    public function hom():view 
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
     {
-        return view('hom');
- 
+        $this->middleware('auth');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function index()
+    {
+        return view('home');
     }
     public function about():view 
     {
@@ -93,7 +105,10 @@ class HomeController extends Controller
         return view('pay');
  
     }
+    public function log():view
+    {
+        return view('log');
+    }
 
 
 }
-

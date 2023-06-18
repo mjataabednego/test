@@ -120,7 +120,7 @@
       
                     <div class="row mt-3">
                         <div class="col-12">
-                            <button type="button" style="width:100%;" id="btnSubmit" class="btn btn-primary d-block mx-auto btn-submit"><a href="pay.html">Submit</a> </button>
+                            <button type="button" style="width:100%;" id="btnSubmit" class="btn btn-primary d-block mx-auto btn-submit"><a href="{{ route('pay')}}">Submit</a> </button>
                         </div>
                     </div>
                 </div>

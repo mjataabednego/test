@@ -34,3 +34,12 @@ Route::get('more', [HomeController::class, 'more'])->name('more');
 Route::get('ordermachine', [HomeController::class, 'ordermachine'])->name('ordermachine');
 Route::get('rent', [HomeController::class, 'rent'])->name('rent');
 Route::get('pay', [HomeController::class, 'pay'])->name('pay');
+Route::get('log', [HomeController::class, 'log'])->name('log');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

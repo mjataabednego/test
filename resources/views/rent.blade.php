@@ -61,7 +61,9 @@
                     <input type="email" name="email">
                   </div>
                 <div class="field padding-bottom--24">
-                  <button class="button-21 text-light" role="button"><a href="{{ route('pay')}} ">Rent IT</a> </button>
+                    <a href="{{ route('pay')}}">
+                        <input type="submit" name="submit" class="btn btn-submit" value="Rent IT">
+                      </a>
                 </div>
               </form>
             </div>

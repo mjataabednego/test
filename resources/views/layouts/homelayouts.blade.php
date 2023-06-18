@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from validthemes.live/themeforest/farmi/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2023 16:00:17 GMT -->
+<!-- Mirrored from validthemes.live/themeforest/farmi/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2023 15:58:31 GMT -->
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <meta name="description" content="Farmi - Organic Farm Agriculture Template">
 
     <!-- ========== Page Title ========== -->
-    <title>Postharvest_finalyrProject</title>
+    <title>PostHarvest_finalyrProject</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -27,10 +27,7 @@
     <link href="assets/css/animate.css" rel="stylesheet" />
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet">
-    <link href="assets/css/pay.css" rel="stylesheet">
-    <link href="assets/css/other.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet" />
-    
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -44,32 +41,17 @@
 
 <body>
 
+   
 
+    
     <!-- Header 
     ============================================= -->
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default navbar-sticky bootsnav">
+        <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav">
 
-            <!-- Start Top Search -->
-            <div class="container">
-                <div class="row">
-                    <div class="top-search">
-                        <div class="input-group">
-                            <form action="#">
-                                <input type="text" name="text" class="form-control" placeholder="Search">
-                                <button type="submit">
-                                    <i class="fas fa-search"></i>
-                                </button>  
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Top Search -->
-
-            <div class="container">
+            <div class="container-full">
 
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav inc-border">
@@ -81,40 +63,100 @@
                             <ul class="dropdown-menu cart-list">
                                 
                                 <li>
-                                    <li><a href="{{ route('login')}}"><i class="fas fa-user"></i> logout</a></li>
+                                    <li><a href="{{ route('login')}}"><i class="fas fa-user"></i> login</a></li>
+                                    <li><a href="{{ route('login')}}"><i class="fas fa-book"></i> Register</a></li>
                                 </li>
                             </ul>
                         </li>
-                        <li class="button"><a href="{{ route('login')}}"><i class="fas fa-user"></i> logout</a></li>                    
+                       
+                        <li class="button"><a href="{{ route('login')}}"><i class="fas fa-user"></i> login</a></li>
+                        <li class="button"><a href="{{ route('login')}}"><i class="fas fa-pen"></i> Register</a></li>
+                                              
+                        <form method="POST" action="{{ route('login') }}">
+                            @csrf
+    
+                            <div class="row mb-3">
+                                <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
+    
+                                <div class="col-md-6">
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+    
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+    
+                            <div class="row mb-3">
+                                <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
+    
+                                <div class="col-md-6">
+                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+    
+                                    @error('password')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+    
+                            <div class="row mb-3">
+                                <div class="col-md-6 offset-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+    
+                                        <label class="form-check-label" for="remember">
+                                            {{ __('Remember Me') }}
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="row mb-0">
+                                <div class="col-md-8 offset-md-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        {{ __('Login') }}
+                                    </button>
+    
+                                    @if (Route::has('password.request'))
+                                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                                            {{ __('Forgot Your Password?') }}
+                                        </a>
+                                    @endif
+                                </div>
+                            </div>
+                        </form>
+                    
                     </ul>
-                </div>               
+                    
+                </div>        
                 <!-- End Atribute Navigation -->
-
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="../assets/img/logo.png" class="logo" alt="Logo">
+                    <a class="navbar-brand" href="{{ route('hom')}}">
+                        <img src="../assets/img/logo-light.png" class="logo logo-display" alt="Logo">
+                        <img src="../assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-center" data-in="#" data-out="#">
-                        <li>
-                            <a href="{{ route('hom')}}" class="dropdown-toggle" data-toggle="dropdown" >Home</a>
-                        </li>
+                    <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp"> 
+                        <li><a href="{{ route('hom')}}">Home</a></li>
                         <li><a href="{{ route('about')}}">About Us</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('service')}}">Services</a></li>
                                 <li><a href="{{ route('team')}}">Farmers</a></li>
-                                <li><a href="{{ route('contact')}}">Get in Touch</a></li>
                                 <li><a href="404.html">Error Page</a></li>
                             </ul>
                         </li>
@@ -133,6 +175,8 @@
 
     @yield('content')
 
+     <!-- Start Footer 
+    ============================================= -->
     <footer class="bg-dark text-light">
         <!-- Fixed Shape -->
         <div class="fixed-shape">
@@ -145,7 +189,9 @@
                     <!-- Single Itme -->
                     <div class="col-lg-4 col-md-6 item">
                         <div class="f-item about">
-                            <img src="../assets/img/logo-light.png" alt="Logo">
+                            <a href="index-2.html">
+                            <img  src="../assets/img/logo-light.png" alt="Logo">
+                        </a>
                             <p>
                                 Happen active county. Winding for the morning am shyness evident to poor. Garrets because elderly new to the point.
                             </p>
@@ -229,15 +275,15 @@
                                 <ul>
                                     <li>
                                         <strong>Address: </strong>
-                                        Shaban robert street posta Dar es salaam
+                                        shaban robert street posta Dar es salaam
                                     </li>
                                     <li>
                                         <strong>Email: </strong>
-                                        <a href="mjataabednego@gmail.com">PostHarvest_Tz@gmail.com</a>
+                                        <a href="mailto:info@validtheme.com">mjataabednego@gmail.com</a>
                                     </li>
                                     <li>
                                         <strong>Phone: </strong>
-                                        <a href="#"> +255713348149</a>
+                                        <a href="#"> +255 7133 48149</a>
                                     </li>
                                 </ul>
                             </div>
@@ -266,31 +312,31 @@
                 </div>
             </div>
         </div>
-           
-    </footer>
+       </footer>
     <!-- End Footer -->
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/modernizr.custom.13711.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/progress-bar.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery-1.12.4.min.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/jquery.appear.js "></script>
+    <script src="assets/js/jquery.easing.min.js "></script>
+    <script src="assets/js/jquery.magnific-popup.min.js "></script>
+    <script src="assets/js/modernizr.custom.13711.js "></script>
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <script src="assets/js/wow.min.js') "></script>
+    <script src="assets/js/progress-bar.min.js "></script>
+    <script src="assets/js/isotope.pkgd.min.js "></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/count-to.js "></script>
+    <script src="assets/js/YTPlayer.min.js "></script>
+    <script src="assets/js/loopcounter.js "></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
 
-<!-- Mirrored from validthemes.live/themeforest/farmi/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2023 16:00:18 GMT -->
+<!-- Mirrored from validthemes.live/themeforest/farmi/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2023 15:59:27 GMT -->
 </html>
