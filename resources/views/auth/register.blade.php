@@ -38,7 +38,6 @@
                                 @enderror
                             </div>
                         </div>
-
                         <div class="row mb-3">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
@@ -58,9 +57,30 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                {{-- <div class="row mb-3 form-check">
+                                    <label class="form-check-label">
+                                      <input type="checkbox" class="form-check-input" name="" id="role-confirm" value="1"  checked>
+                                       industrial company
+                                    </label>
+                                </div> --}}
                             </div>
                         </div>
+                        <div class="row mb-3">
+                            <label for="option" class="col-md-4 col-form-label text-md-end">Category</label>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" name="category" id="">
+                                      <option value="">Please Select below</option>
+                                      <option>Indistrial Company</option>
+                                      <option>Farmer</option>
+                                    </select>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        
 
+                      
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">

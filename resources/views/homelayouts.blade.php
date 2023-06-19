@@ -73,9 +73,9 @@
                     </ul>
                     <ul>
                         @guest
-                            @if (Route::has('log'))
+                            @if (Route::has('login'))
                                 <li class="nav-item button">
-                                    <li class="button"><a href="{{ route('log')}}"><i class="fas fa-user"></i> login</a></li>
+                                    <li class="button"><a href="{{ route('login')}}"><i class="fas fa-user"></i> login</a></li>
                                 </li>
                             @endif
 
@@ -161,7 +161,7 @@
                     <!-- Single Itme -->
                     <div class="col-lg-4 col-md-6 item">
                         <div class="f-item about">
-                            <a href="index-2.html">
+                            <a href="{{ route('hom')}}">
                             <img  src="../assets/img/logo-light.png" alt="Logo">
                         </a>
                             <p>

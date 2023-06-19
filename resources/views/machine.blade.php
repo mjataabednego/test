@@ -47,7 +47,7 @@
                                         <p>
                                             Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something.
                                         </p>
-                                        <a class="btn circle btn-primary border btn-md" href="blog-single-with-sidebar.html">request</a>
+                                        <a class="btn circle btn-primary border btn-md" href="{{ route('ordermachine')}}">request</a>
                                     </div>
                                 </div>
                             </div>
