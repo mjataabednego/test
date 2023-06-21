@@ -112,7 +112,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="{{ route('hom')}}">
+                    <a class="navbar-brand" href="{{ route('home')}}">
                         <img src="../assets/img/logo-light.png" class="logo logo-display" alt="Logo">
                         <img src="../assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
                     </a>
@@ -122,7 +122,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp"> 
-                        <li><a href="{{ route('hom')}}">Home</a></li>
+                        <li><a href="{{ route('home')}}">Home</a></li>
                         <li><a href="{{ route('about')}}">About Us</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
@@ -161,7 +161,7 @@
                     <!-- Single Itme -->
                     <div class="col-lg-4 col-md-6 item">
                         <div class="f-item about">
-                            <a href="{{ route('hom')}}">
+                            <a href="{{ route('home')}}">
                             <img  src="../assets/img/logo-light.png" alt="Logo">
                         </a>
                             <p>

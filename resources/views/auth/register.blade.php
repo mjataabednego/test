@@ -57,12 +57,6 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                                {{-- <div class="row mb-3 form-check">
-                                    <label class="form-check-label">
-                                      <input type="checkbox" class="form-check-input" name="" id="role-confirm" value="1"  checked>
-                                       industrial company
-                                    </label>
-                                </div> --}}
                             </div>
                         </div>
                         <div class="row mb-3">
@@ -70,12 +64,17 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <select class="form-control" name="category" id="">
-                                      <option value="">Please Select below</option>
-                                      <option>Indistrial Company</option>
-                                      <option>Farmer</option>
+                                      <option @disabled(true)>Please Select below</option>
+                                      <option value="company">Indistrial Company</option>
+                                      <option value="farmer">Farmer</option>
                                     </select>
                                   </div>
                                 </div>
+                                @error('category')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                         </div>
                         

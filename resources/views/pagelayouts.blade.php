@@ -129,7 +129,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="{{ route('hom')}}">
+                    <a class="navbar-brand" href="{{ route('home')}}">
                         <img src="../assets/img/logo.png" class="logo" alt="Logo">
                     </a>
                 </div>
@@ -139,7 +139,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-center" data-in="#" data-out="#">
                         <li>
-                            <a href="{{ route('hom')}}" class="dropdown-toggle" data-toggle="dropdown" >Home</a>
+                            <a href="{{ route('home')}}" class="dropdown-toggle" data-toggle="dropdown" >Home</a>
                         </li>
                         <li><a href="{{ route('about')}}">About Us</a></li>
                         <li class="dropdown">
